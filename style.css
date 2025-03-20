@@ -1,0 +1,35 @@
+/* styles.css */
+body {
+    background-color: #660000; /* Dark Red */
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+h1, h2, h3 {
+    color: #ff3333; /* Bright Red */
+}
+
+.stButton>button {
+    background-color: #cc0000 !important; /* Deep Red */
+    color: white !important;
+    border-radius: 5px;
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.stRadio label {
+    color: white !important;
+}
+
+.stSuccess {
+    background-color: #008000 !important; /* Green for Correct Answers */
+    color: white !important;
+    font-weight: bold;
+}
+
+.stError {
+    background-color: #990000 !important; /* Darker Red for Incorrect */
+    color: white !important;
+    font-weight: bold;
+}
